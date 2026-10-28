@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Encryptarium.Domain.DAL\Encryptarium.Domain.DAL.csproj" />
+    <ProjectReference Include="..\Encryptarium.Domain.DTO\Encryptarium.Domain.DTO.csproj" />
+    <ProjectReference Include="..\Encryptarium.Domain.Enum\Encryptarium.Domain.Enum.csproj" />
+    <ProjectReference Include="..\Encryptarium.Model\Encryptarium.Domain.Model.csproj" />
+  </ItemGroup>
+
+</Project>

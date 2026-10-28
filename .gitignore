@@ -1,0 +1,30 @@
+# Папки и файлы Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Директории и файлы сборки
+bin/
+obj/
+
+# Пакеты и NuGet
+packages/
+*.nupkg
+
+# Временные и сгенерированные файлы
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+_ReSharper_*/
+*.log
+*.tmp
+
+# Другие служебные файлы
+Generated_Code/
+UpgradeReport_Files/
+Backup*/
+UpgradeLog*.XML

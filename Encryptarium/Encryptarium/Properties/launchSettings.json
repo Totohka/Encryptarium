@@ -1,0 +1,31 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5189",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SECRET": " MyVeryTopSecretKey256bitMinimalSizeForCorrectlyWork",
+        "AdminPassword" : "Admin-12345",
+        "AES_IV" : "Admin-12345",
+        "AES_Key" : "Admin-12345"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:7176;http://localhost:5189",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SECRET": " MyVeryTopSecretKey256bitMinimalSizeForCorrectlyWork",
+        "AdminPassword": "Admin-12345",
+        "AES_IV": "Admin-12345",
+        "AES_Key": "Admin-12345"
+      }
+    }
+  }
+}

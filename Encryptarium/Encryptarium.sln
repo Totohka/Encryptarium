@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryptarium", "Encryptarium\Encryptarium.csproj", "{2E390E5A-348B-4E68-BF4A-E697D9B1F0F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryptarium.Domain.Model", "Encryptarium.Model\Encryptarium.Domain.Model.csproj", "{C1CD473D-8030-4115-8CCD-EF1B38A37544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryptarium.Domain.Enum", "Encryptarium.Domain.Enum\Encryptarium.Domain.Enum.csproj", "{B2BBEB1A-CEC7-4DAF-94E4-440EF36742ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryptarium.Domain.DAL", "Encryptarium.Domain.DAL\Encryptarium.Domain.DAL.csproj", "{BD1B33A9-4F0C-47F1-9BFD-6F99E3CD7658}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5EDA6CA3-5B10-40DC-A770-FA050B83BC38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryptarium.Core.Service", "Encryptarium.Core.Service\Encryptarium.Core.Service.csproj", "{91220142-3F89-4E72-8553-E8D01ED955A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{C24AFB39-BE96-4A18-9723-4AAB2B7A0BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryptarium.BL.Service", "Encryptarium.BL.Service\Encryptarium.BL.Service.csproj", "{47B92E4F-D90F-4863-8E11-809ED8DEAC0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryptarium.Domain.DTO", "Encryptarium.Domain.DTO\Encryptarium.Domain.DTO.csproj", "{95C25ECF-B9AF-415C-9FC8-96D75A02084A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{38A12F6A-EB98-481D-998D-C900319C6BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetClientEncryptarium", "DotNetClientEncryptarium\DotNetClientEncryptarium.csproj", "{A5D2CCDC-8FC3-4731-89FA-3DB4631398E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryptarium.Client", "Encryptarium.Client\Encryptarium.Client.csproj", "{5AF763E9-0E9D-49B5-8CCE-6BC6471FC5A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{EF75354C-6603-4DCB-A5A7-C781739C8165}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{46AA6B92-1982-45A6-877E-802978365240}"
+	ProjectSection(SolutionItems) = preProject
+		usb.sh = usb.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E390E5A-348B-4E68-BF4A-E697D9B1F0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E390E5A-348B-4E68-BF4A-E697D9B1F0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E390E5A-348B-4E68-BF4A-E697D9B1F0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E390E5A-348B-4E68-BF4A-E697D9B1F0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CD473D-8030-4115-8CCD-EF1B38A37544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CD473D-8030-4115-8CCD-EF1B38A37544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CD473D-8030-4115-8CCD-EF1B38A37544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CD473D-8030-4115-8CCD-EF1B38A37544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BBEB1A-CEC7-4DAF-94E4-440EF36742ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BBEB1A-CEC7-4DAF-94E4-440EF36742ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BBEB1A-CEC7-4DAF-94E4-440EF36742ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BBEB1A-CEC7-4DAF-94E4-440EF36742ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1B33A9-4F0C-47F1-9BFD-6F99E3CD7658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1B33A9-4F0C-47F1-9BFD-6F99E3CD7658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1B33A9-4F0C-47F1-9BFD-6F99E3CD7658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1B33A9-4F0C-47F1-9BFD-6F99E3CD7658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91220142-3F89-4E72-8553-E8D01ED955A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91220142-3F89-4E72-8553-E8D01ED955A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91220142-3F89-4E72-8553-E8D01ED955A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91220142-3F89-4E72-8553-E8D01ED955A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47B92E4F-D90F-4863-8E11-809ED8DEAC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47B92E4F-D90F-4863-8E11-809ED8DEAC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47B92E4F-D90F-4863-8E11-809ED8DEAC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47B92E4F-D90F-4863-8E11-809ED8DEAC0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C25ECF-B9AF-415C-9FC8-96D75A02084A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C25ECF-B9AF-415C-9FC8-96D75A02084A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C25ECF-B9AF-415C-9FC8-96D75A02084A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C25ECF-B9AF-415C-9FC8-96D75A02084A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D2CCDC-8FC3-4731-89FA-3DB4631398E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D2CCDC-8FC3-4731-89FA-3DB4631398E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D2CCDC-8FC3-4731-89FA-3DB4631398E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D2CCDC-8FC3-4731-89FA-3DB4631398E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF763E9-0E9D-49B5-8CCE-6BC6471FC5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF763E9-0E9D-49B5-8CCE-6BC6471FC5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF763E9-0E9D-49B5-8CCE-6BC6471FC5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF763E9-0E9D-49B5-8CCE-6BC6471FC5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E390E5A-348B-4E68-BF4A-E697D9B1F0F0} = {C24AFB39-BE96-4A18-9723-4AAB2B7A0BA1}
+		{C1CD473D-8030-4115-8CCD-EF1B38A37544} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{B2BBEB1A-CEC7-4DAF-94E4-440EF36742ED} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{BD1B33A9-4F0C-47F1-9BFD-6F99E3CD7658} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{91220142-3F89-4E72-8553-E8D01ED955A3} = {5EDA6CA3-5B10-40DC-A770-FA050B83BC38}
+		{47B92E4F-D90F-4863-8E11-809ED8DEAC0A} = {5EDA6CA3-5B10-40DC-A770-FA050B83BC38}
+		{95C25ECF-B9AF-415C-9FC8-96D75A02084A} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{A5D2CCDC-8FC3-4731-89FA-3DB4631398E7} = {38A12F6A-EB98-481D-998D-C900319C6BD7}
+		{5AF763E9-0E9D-49B5-8CCE-6BC6471FC5A6} = {EF75354C-6603-4DCB-A5A7-C781739C8165}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5225CD34-1FC2-454B-B596-B8A80BC5ABB5}
+	EndGlobalSection
+EndGlobal
